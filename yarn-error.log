@@ -1,0 +1,93 @@
+Arguments: 
+  D:\Nodejs\node.exe C:\Users\Balraj\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files\Python310\Scripts\;C:\Program Files\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\msys64\mingw64\bin;C:\Program Files (x86)\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;D:\Nodejs\;C:\Program Files\MongoDB\Server\7.0\bin;C:\mongosh-1.10.6-win32-x64\mongosh-1.10.6-win32-x64\bin;C:\Program Files\dotnet\;C:\Users\Balraj\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\Balraj\AppData\Local\Programs\Microsoft VS Code\bin;D:\New folder (2)\New folder\Hyper\resources\bin;D:\Hyper\resources\bin;C:\Users\Balraj\AppData\Roaming\npm;C:\Program Files\MongoDB\Server\6.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\Balraj\AppData\Local\GitHubDesktop\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-6.4.2.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\Balraj\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141517:19)
+      at Object.onceWrapper (node:events:627:28)
+      at ClientRequest.emit (node:events:513:28)
+      at TLSSocket.emitRequestTimeout (node:_http_client:848:9)
+      at Object.onceWrapper (node:events:627:28)
+      at TLSSocket.emit (node:events:525:35)
+      at Socket._onTimeout (node:net:570:8)
+      at listOnTimeout (node:internal/timers:569:17)
+      at process.processTimers (node:internal/timers:512:7)
+
+npm manifest: 
+  {
+  	"name": "reactfolio",
+  	"version": "1.1.0",
+  	"description": "Personal portfolio template built using Reactjs",
+  	"author": {
+  		"name": "Tharindu N. Madhusanka",
+  		"email": "mail@tharindu.dev",
+  		"url": "https://tharindu.dev"
+  	},
+  	"license": "MIT",
+  	"private": true,
+  	"dependencies": {
+  		"@fortawesome/fontawesome-svg-core": "^6.4.0",
+  		"@fortawesome/free-brands-svg-icons": "^6.4.0",
+  		"@fortawesome/free-regular-svg-icons": "^6.4.0",
+  		"@fortawesome/free-solid-svg-icons": "^6.4.0",
+  		"@fortawesome/react-fontawesome": "^0.2.0",
+  		"@testing-library/jest-dom": "^5.16.5",
+  		"@testing-library/react": "^13.4.0",
+  		"@testing-library/user-event": "^13.5.0",
+  		"react": "^18.2.0",
+  		"react-dom": "^18.2.0",
+  		"react-ga4": "^2.1.0",
+  		"react-helmet": "^6.1.0",
+  		"react-router-dom": "^6.11.1",
+  		"react-scripts": "^3.0.1",
+  		"styled-components": "^5.3.10",
+  		"web-vitals": "^2.1.4",
+  		"yarn": "^1.22.19"
+  	},
+  	"scripts": {
+  		"start": "react-scripts start",
+  		"build": "react-scripts build",
+  		"test": "react-scripts test",
+  		"eject": "react-scripts eject"
+  	},
+  	"eslintConfig": {
+  		"extends": [
+  			"react-app",
+  			"react-app/jest"
+  		]
+  	},
+  	"browserslist": {
+  		"production": [
+  			">0.2%",
+  			"not dead",
+  			"not op_mini all"
+  		],
+  		"development": [
+  			"last 1 chrome version",
+  			"last 1 firefox version",
+  			"last 1 safari version"
+  		]
+  	},
+  	"prettier": {
+  		"useTabs": true,
+  		"tabWidth": 4
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
